@@ -1,1 +1,82 @@
+<!DOCTOTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Accueil - Robbie Lens Photographie</title>
+        <link rel="stylesheet" href="pages_style2/style2.css"/>
+        <link rel="stylesheet" href="pages_style2/index2.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    </head>
 
+    <body>
+        <!--commentaire-->
+        <header>
+            <nav>
+                <img src="images2/logo.png" alt="logo de Robbie Lens"/>
+                <div>
+                    <a href="index2.html">Accueil</a>
+                    <a href="a_propos2.html">A propos</a>
+                    <a href="portfolio2.html">Portfolio</a>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="accueil-introduction">
+                <div>
+                    <h1>Robbie Lens Photographie</h1>       
+                    <p>Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion
+                    qui m’anime : capturer l’essence de chaque instant.
+                    </p>
+                    <a class="cta" href="#contact">Un projet ? Ecrivez-moi</a>
+                </div>
+                <img src="images2/robbie-lens.png" alt="photo de Robbie Lens"/>
+            </section>
+            <section class="accueil-photos">
+                <h2>Mon dernier projet</h2>
+                <div>
+                    <img src="images2/accueil/element-1.png" alt="paysage 1"/>
+                    <img src="images2/accueil/element-2.png" alt="paysage 2"/>
+                    <img src="images2/accueil/element-3.png" alt="paysage 3"/>
+                </div>
+                <div>
+                    <img src="images2/accueil/element-4.png" alt="paysage 4"/>
+                    <img src="images2/accueil/element-5.png" alt="paysage 5"/>
+                    <img src="images2/accueil/element-6.png" alt="paysage 6"/>
+                </div>
+            </section>
+            <section id="contact" class="section-contact">
+                <h2>Parlons de votre projet</h2>
+                <form method="get" action="">
+                    <div class="form-nom-email">
+                        <div class="form-column">
+                            <label for="nom">Nom</label>
+                            <input type="text" name="nom" id="nom"/>
+                        </div>
+                        <div class="form-column">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email"/>
+                        </div>
+                    </div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="10"></textarea>
+                    <input type="submit" value="Envoyer" class="cta"/>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+                <img src="images2/logo.png" alt="logo de Robbie Lens"/>
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/" class="lien-icone"><img src="images2/instagram.png" alt="logo instagram"/></a>
+                    <a target="_blank" href="https://twitter.com/" class="lien-icone"><img src="images2/twitter.png" alt="logo twitter"/></a>
+                </div>
+        </footer>
+    </body>
+</html>
